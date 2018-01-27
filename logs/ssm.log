@@ -1,0 +1,123 @@
+[INFO] [2018-01-27 15:44:01][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-01-27 15:44:01][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Jan 27 15:44:01 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 15:44:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 15:44:01][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 15:44:01][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 15:44:01][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 15:44:02][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 15:44:02][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1111 ms
+[INFO] [2018-01-27 15:44:02][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2018-01-27 15:44:02][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Jan 27 15:44:02 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-01-27 15:44:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-01-27 15:44:02][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 15:44:02][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+[INFO] [2018-01-27 15:44:02][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test1],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.getUserByIdTest(java.lang.String)
+[INFO] [2018-01-27 15:44:02][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+[INFO] [2018-01-27 15:44:03][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2018-01-27 15:44:03][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO] [2018-01-27 15:44:03][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 517 ms
+[INFO] [2018-01-27 15:46:39][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 15:46:39][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 15:46:39][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@7f560810: startup date [Sat Jan 27 15:46:39 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 15:46:39][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 15:46:40][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 15:46:41][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@7f560810: startup date [Sat Jan 27 15:46:39 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 15:46:41][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-01-27 15:48:07][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 15:48:08][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 15:48:08][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@7f560810: startup date [Sat Jan 27 15:48:08 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 15:48:08][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 15:48:09][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 15:48:09][org.ssm.dufy.service.TestMyBatis]{"age":24,"id":1,"password":"345","userName":"≤‚ ‘"}
+[INFO] [2018-01-27 15:48:09][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@7f560810: startup date [Sat Jan 27 15:48:08 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 15:48:09][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} closed
+[INFO] [2018-01-27 15:54:10][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-01-27 15:54:10][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Jan 27 15:54:10 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 15:54:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 15:54:10][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 15:54:10][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 15:54:10][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 15:54:11][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 15:54:11][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1283 ms
+[INFO] [2018-01-27 15:54:11][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2018-01-27 15:54:11][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Jan 27 15:54:11 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-01-27 15:54:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-01-27 15:54:11][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 15:54:11][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test1],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.getUserByIdTest(java.lang.String)
+[INFO] [2018-01-27 15:54:11][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+[INFO] [2018-01-27 15:54:11][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+[INFO] [2018-01-27 15:54:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2018-01-27 15:54:12][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO] [2018-01-27 15:54:12][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 638 ms
+[INFO] [2018-01-27 15:58:38][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-01-27 15:58:38][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Jan 27 15:58:38 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 15:58:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 15:58:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 15:58:38][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 15:58:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 15:58:39][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 15:58:39][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1551 ms
+[INFO] [2018-01-27 15:58:40][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2018-01-27 15:58:40][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Jan 27 15:58:40 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-01-27 15:58:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-01-27 15:58:40][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 15:58:40][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test1],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.getUserByIdTest(java.lang.String)
+[INFO] [2018-01-27 15:58:40][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+[INFO] [2018-01-27 15:58:40][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+[INFO] [2018-01-27 15:58:40][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2018-01-27 15:58:40][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO] [2018-01-27 15:58:40][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 538 ms
+[INFO] [2018-01-27 16:02:58][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-01-27 16:02:58][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Jan 27 16:02:58 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 16:02:58][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 16:02:59][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 16:02:59][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 16:02:59][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 16:02:59][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 16:02:59][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1221 ms
+[INFO] [2018-01-27 16:03:00][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2018-01-27 16:03:00][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Jan 27 16:03:00 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-01-27 16:03:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-01-27 16:03:00][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 16:03:00][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile,org.springframework.ui.Model) throws java.io.IOException
+[INFO] [2018-01-27 16:03:00][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+[INFO] [2018-01-27 16:03:00][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test1],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.getUserByIdTest(java.lang.String)
+[INFO] [2018-01-27 16:03:00][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2018-01-27 16:03:00][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO] [2018-01-27 16:03:00][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 792 ms
+[INFO] [2018-01-27 16:03:48][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-01-27 16:03:48][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Jan 27 16:03:48 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 16:03:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 16:03:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 16:03:48][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 16:03:48][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 16:03:49][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 16:03:49][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1147 ms
+[INFO] [2018-01-27 16:03:49][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2018-01-27 16:03:49][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Jan 27 16:03:49 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-01-27 16:03:49][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-01-27 16:03:49][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 16:03:50][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test1],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.getUserByIdTest(java.lang.String)
+[INFO] [2018-01-27 16:03:50][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+[INFO] [2018-01-27 16:03:50][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile,org.springframework.ui.Model) throws java.io.IOException
+[INFO] [2018-01-27 16:03:50][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2018-01-27 16:03:50][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO] [2018-01-27 16:03:50][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 674 ms
+[INFO] [2018-01-27 16:07:17][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-01-27 16:07:17][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Sat Jan 27 16:07:17 CST 2018]; root of context hierarchy
+[INFO] [2018-01-27 16:07:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [applicationContext.xml]
+[INFO] [2018-01-27 16:07:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-01-27 16:07:17][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-01-27 16:07:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 16:07:18][com.alibaba.druid.pool.DruidDataSource]{dataSource-1} inited
+[INFO] [2018-01-27 16:07:18][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1269 ms
+[INFO] [2018-01-27 16:07:18][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [2018-01-27 16:07:18][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'dispatcherServlet-servlet': startup date [Sat Jan 27 16:07:18 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-01-27 16:07:18][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-01-27 16:07:18][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-01-27 16:07:19][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/upload],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.showUploadPage()
+[INFO] [2018-01-27 16:07:19][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/test1],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.getUserByIdTest(java.lang.String)
+[INFO] [2018-01-27 16:07:19][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/doUpload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.doUploadFile(org.springframework.web.multipart.MultipartFile,org.springframework.ui.Model) throws java.io.IOException
+[INFO] [2018-01-27 16:07:19][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[INFO] [2018-01-27 16:07:19][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[INFO] [2018-01-27 16:07:19][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'dispatcherServlet': initialization completed in 701 ms
